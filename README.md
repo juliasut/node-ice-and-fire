@@ -9,14 +9,6 @@ To complete this challenge, you will need to:
 - [ ] Fork and clone this repository
 - [ ] Install dependencies with `npm install`
 
-## Stretch Goals
-
-- [ ] Create a route for `/characters/:id/books` that returns a list of books for a single character
-- [ ] Create a route for `/characters/:id/houses` that returns a list of houses for a single character
-- [ ] Create a route for `/houses/:id/characters` that returns a list of characters for a single house
-- [ ] Create a route for `/houses/:id/books` that returns a list of books for a single house
-- [ ] Create a route for `/books/:id/characters` that returns a list of characters for a single book
-
 ## Part I
 
 ### Setup
