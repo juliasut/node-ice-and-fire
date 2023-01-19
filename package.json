@@ -2,10 +2,10 @@
   "name": "nodeiceandfire",
   "version": "1.0.0",
   "description": "API Challenge",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node run server.js",
-    "server": "nodemon run server.js"
+    "start": "node run app.js",
+    "server": "nodemon run app.js"
   },
   "author": "Stephanie Jones",
   "license": "ISC",
