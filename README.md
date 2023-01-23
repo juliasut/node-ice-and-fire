@@ -12,7 +12,8 @@ Run your server with `npm run server`. Use [Postman](https://www.getpostman.com/
 
 ### Setup
 
-- [ ] Fork and clone this repositoryInstall dependencies with `npm install`
+- [ ] Fork and clone this repository
+- [ ] Install dependencies with `npm install`
 - [ ] Install dependencies with `npm install`
 - [ ] Review the resources listed in the [Ice and Fire API documentation](https://anapioficeandfire.com/Documentation)
 - [ ] Download [Postman](https://www.getpostman.com/downloads/) to test your routes
