@@ -46,6 +46,8 @@ Run your server with `npm run server`. Use [Postman](https://www.getpostman.com/
 ## Part IV - Error Handling Middleware
 
 - [ ] Build a custom `errorHandler` function in the `errorMiddleware.js` file that responds with the error status and error message if an error occurs inside the `catch` block of the characterControllers
+      _Hint:_ You can use `console.log(err)` to see what the error object looks like
+      _Hint:_ Read documentation for the next() method in Express
 - [ ] Check if your error handler works by commenting out a controller function's code, adding `throw new Error('Error hit')` and running the route in `Postman`
 
 ## Part V - Error Handling Middleware for Invalid Path
