@@ -12,18 +12,18 @@ Run your server with `npm run server`. Use [Postman](https://www.getpostman.com/
 
 ### Setup
 
-- [ ] Fork and clone this repository
-- [ ] Install dependencies with `npm install`
-- [ ] Review the resources listed in the [Ice and Fire API documentation](https://anapioficeandfire.com/Documentation)
-- [ ] Download [Postman](https://www.getpostman.com/downloads/) to test your routes
+- [x] Fork and clone this repository
+- [x] Install dependencies with `npm install`
+- [x] Review the resources listed in the [Ice and Fire API documentation](https://anapioficeandfire.com/Documentation)
+- [x] Download [Postman](https://www.getpostman.com/downloads/) to test your routes
 
 ### Create a server in `app.js`
 
-- [ ] Require `express`
-- [ ] Create an `express` app
-- [ ] Create a server with `app.listen()`
-- [ ] Create a GET route for `/` that sends a response of `Hello World!`
-- [ ] Test your server with `npm run server` and visiting `localhost:3000`
+- [x] Require `express`
+- [x] Create an `express` app
+- [x] Create a server with `app.listen()`
+- [x] Create a GET route for `/` that sends a response of `Hello World!`
+- [x] Test your server with `npm run server` and visiting `localhost:3000`
 
 ## Part II - Building an API
 
