@@ -41,7 +41,7 @@ Run your server with `npm run server`. Use [Postman](https://www.getpostman.com/
 
 - [ ] Create a route for `/character/books/:name` that returns a list of book titles for a single character
 - [ ] Create a route for `/character/allegiances/:name` that returns a list of character names for a single character's allegiances
-- [ ] Create a route for `/overlords` that returns a list of all the characters who are House Overlords
+- [ ] Create a route for `/lords` that returns a list of all current lords for houses in the GOT universe.
 
 ## Part IV - Error Handling Middleware
 
