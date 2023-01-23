@@ -19,8 +19,8 @@ Run your server with `npm run server`. Use [Postman](https://www.getpostman.com/
 
 ### Create a server in `app.js`
 
-- [ ] Import express
-- [ ] Create an express app
+- [ ] Import `express`
+- [ ] Create an `express` app
 - [ ] Create a server with `app.listen()`
 - [ ] Create a GET route for `/` that sends a response of `Hello World!`
 - [ ] Test your server with `npm run server` and visiting `localhost:3000`
@@ -33,7 +33,7 @@ Run your server with `npm run server`. Use [Postman](https://www.getpostman.com/
 - [ ] Create a route for `/character/name/:name` that returns a single character by name
 - [ ] Create a route for `/character/titles/:name` that returns a list of titles for a single character
 - [ ] Create a route for `/characters/:page` that returns a list of characters based on a page number
-- [ ] 🌶️ Refactor the `/characters/:page` controller function to use a query to return a specific number of characters per page
+- [ ] 🌶️ Refactor the `/characters/:page` controller function to use a query to return a specific number of characters per page. Use [Ice and Fire API documentation](https://anapioficeandfire.com/Documentation).
 
 ## Part III - Combining Data
 
@@ -46,8 +46,8 @@ Run your server with `npm run server`. Use [Postman](https://www.getpostman.com/
 ## Part IV - Error Handling Middleware
 
 - [ ] Build a custom `errorHandler` function in the `errorMiddleware.js` file that responds with the error status and error message if an error occurs inside the `catch` block of the characterControllers
-- [ ] Check if your error handler works by commenting out your controller function code and adding `throw new Error('Error hit')` and running the route in Postman
+- [ ] Check if your error handler works by commenting out a controller function's code, adding `throw new Error('Error hit')` and running the route in `Postman`
 
 ## Part V - Error Handling Middleware for Invalid Path
 
-- [ ] Build a custom `invalidPathHandler` function in the `errorMiddleware.js` file that returns a status of 404 and an "Invalid path" message if a user attempts to use a url path that is not a router.
+- [ ] Build a custom `invalidPathHandler` function in the `errorMiddleware.js` file that returns a status of `404` and an "Invalid path" message if a user attempts to use a url path that is not a route.
