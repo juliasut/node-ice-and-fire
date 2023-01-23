@@ -14,8 +14,6 @@ Run your server with `npm run server`. Use [Postman](https://www.getpostman.com/
 
 - [ ] Fork and clone this repositoryInstall dependencies with `npm install`
 - [ ] Install dependencies with `npm install`
-- [ ] Create an `app.js` file in the root of the project
-- [ ] Create folders for controllers and routes
 - [ ] Review the resources listed in the [Ice and Fire API documentation](https://anapioficeandfire.com/Documentation)
 - [ ] Download [Postman](https://www.getpostman.com/downloads/) to test your routes
 
