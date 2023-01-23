@@ -49,7 +49,7 @@ Run your server with `npm run server`. Use [Postman](https://www.getpostman.com/
 
       _Hint:_ You can use `console.log(err)` to see what the error object looks like
 
-      _Hint:_ Read documentation for the next() method in Express
+      _Hint:_ Read documentation for the `next()` method in Express
 
 - [ ] Check if your error handler works by commenting out a controller function's code, adding `throw new Error('Error hit')` and running the route in `Postman`
 
